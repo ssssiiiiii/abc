@@ -6,3 +6,9 @@ GIT
 本地文件
 
 创建本地代码仓库：git init
+查看状态：git status
+将文件添加到缓存中：git add 文件名
+添加到本地代码仓库：git commit -m""
+	m:message简写，备注提交信息
+提交个人信息： git config --global user.email"2645481326@qq.com"
+创建密钥： ssh-keygen -t rsa -C “邮箱”
