@@ -12,3 +12,5 @@ GIT
 	m:message简写，备注提交信息
 提交个人信息： git config --global user.email"2645481326@qq.com"
 创建密钥： ssh-keygen -t rsa -C “邮箱”
+添加远程连接：git remote add origin "代码链接"
+git push -u origin master（第一次提交需要加-u,以后就不需要了）
